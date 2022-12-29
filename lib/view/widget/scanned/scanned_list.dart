@@ -43,7 +43,7 @@ class ScannedList extends StatelessWidget {
                         children: [
                           Obx(() {
                             return TextWidget(
-                              text: '${controller.entrants[index].name}',
+                              text: '${controller.users[index].name}',
                               color: blackColor,
                               fontSize: 18,
                               fontWeight: FontWeight.w600,
